@@ -1,5 +1,5 @@
 import type { ActionArgs } from "@remix-run/node";
-import { Form, useActionData } from "@remix-run/react";
+import { Form, Link, useActionData } from "@remix-run/react";
 import axios from "axios";
 import { useRef, useState } from "react";
 
@@ -69,7 +69,12 @@ export default function Index() {
   return (
     <div className="home flex w-full h-screen flex-col justify-center items-center">
       <div className="text-white text-lg ">
+        <div className=" m-auto flex items-center justify-center">
+          <img className="h-24 w-24" src="./logo.svg" alt="logo" />
+          <Link className="text-sm font-semibold" to='/'>BY <span className="text-indigo-400 hover:text-indigo-600">Ali Khalouf</span></Link>
+        </div>
         <div className="hidden sm:mb-8 sm:flex sm:justify-center ">
+
           <div className="relative rounded-full py-1 px-3 text-lg leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
             Get your packages in on <a href="." className="font-semibold text-indigo-600"><span className="absolute inset-0" aria-hidden="true"></span>line <span aria-hidden="true">&rarr;</span></a>
           </div>
