@@ -21,7 +21,7 @@ export const meta: MetaFunction = () => ({
   "twitter:site": "@itsAliKhalouf",
   "og:title": "OneLinePackages - Get All Your NPM Packages in One Line",
   "og:description": "OneLinePackages is a website that allows you to easily retrieve all of your installed packages from the NPM registry API in just one line of code. Say goodbye to sifting through lengthy lists and manually copying package names, and hello to streamlined development with our user-friendly tool. With OneLinePackages, you can quickly and efficiently manage your NPM packages, saving you valuable time and effort.",
-  "og:image": image
+  "og:image:src": image
 });
 
 
