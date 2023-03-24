@@ -76,7 +76,7 @@ export default function Index() {
         <div className="hidden sm:mb-8 sm:flex sm:justify-center ">
 
           <div className="relative rounded-full py-1 px-3 text-lg leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Get your packages in on <a href="." className="font-semibold text-indigo-600"><span className="absolute inset-0" aria-hidden="true"></span>line <span aria-hidden="true">&rarr;</span></a>
+            Get your packages in one <a href="." className="font-semibold text-indigo-600"><span className="absolute inset-0" aria-hidden="true"></span>line <span aria-hidden="true">&rarr;</span></a>
           </div>
         </div>
 
