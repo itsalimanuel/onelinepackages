@@ -71,7 +71,7 @@ export default function Index() {
       <div className="text-white text-lg ">
         <div className=" m-auto flex items-center justify-center">
           <img className="h-24 w-24" src="./logo.svg" alt="logo" />
-          <Link className="text-sm font-semibold" to='/'>BY <span className="text-indigo-400 hover:text-indigo-600">Ali Khalouf</span></Link>
+          <Link className="text-sm font-semibold" target="_blank" to='https://twitter.com/itsAliKhalouf'>BY <span className="text-indigo-400 hover:text-indigo-600">Ali Khalouf</span></Link>
         </div>
         <div className="hidden sm:mb-8 sm:flex sm:justify-center ">
 

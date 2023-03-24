@@ -1,7 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
 
 import { Analytics } from '@vercel/analytics/react';
-
+ 
 import {
   Links,
   LiveReload,
