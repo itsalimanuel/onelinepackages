@@ -1,4 +1,7 @@
 import type { MetaFunction } from "@remix-run/node";
+
+import { Analytics } from '@vercel/analytics/react';
+
 import {
   Links,
   LiveReload,
@@ -35,6 +38,7 @@ export default function App() {
       </head>
       <body className="bg-slate-900">
         <Outlet />
+        <Analytics />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
