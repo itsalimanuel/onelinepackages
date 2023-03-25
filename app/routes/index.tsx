@@ -111,7 +111,7 @@ export default function Index() {
                         </select>
                     </div>
                     <div className='col-span-2 col-start-2 row-start-1 row-end-1 relative'>
-                        <input name="name" ref={inputRef} type="text" className=' text-[14px] hidden sm:flex items-center rounded text-left space-x-3 px-4 h-full w-full bg-[#313139] text-white' placeholder='search for package name ..' />
+                        <input name="name" ref={inputRef} type="text" className=' text-[14px] hidden sm:flex items-center rounded text-left space-x-3 px-4 h-full w-full bg-[#313139] text-white' placeholder='Search packages' />
                         {showResult == true && data ?
                             <ul className="absolute h-56 text-yellow-100 bg-slate-500  z-20 rounded-md flex flex-col  overflow-y-auto w-full">
                                 {data ? data.map((item: any) => (
